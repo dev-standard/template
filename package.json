@@ -7,11 +7,23 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "main": "src/index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepare": "husky install",
     "commit": "git-cz",
-    "release": "release-it"
+    "release": "release-it",
+    "build": "unbuild"
   },
   "keywords": [
     "template",
@@ -30,7 +42,8 @@
     "husky": "^8.0.0",
     "inquirer": "8",
     "lint-staged": "^13.1.0",
-    "release-it": "^15.5.1"
+    "release-it": "^15.5.1",
+    "unbuild": "^1.0.2"
   },
   "config": {
     "commitizen": {
