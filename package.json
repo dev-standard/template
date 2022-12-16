@@ -1,6 +1,6 @@
 {
   "name": "@liting-yes/template",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "a basic template about front end",
   "private": false,
   "publishConfig": {
