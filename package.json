@@ -33,12 +33,12 @@
   "author": "liting-yes <luz.liting@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@antfu/eslint-config": "^0.34.0",
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@commitlint/cz-commitlint": "^17.3.0",
     "@release-it/conventional-changelog": "^5.1.1",
     "commitizen": "^4.2.6",
-    "eslint-config-liting": "^0.3.0",
     "husky": "^8.0.0",
     "inquirer": "8",
     "lint-staged": "^13.1.0",
