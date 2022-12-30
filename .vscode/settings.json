@@ -34,5 +34,6 @@
   "editor.formatOnType": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
-  }
+  },
+  "compile-hero.disable-compile-files-on-did-save-code": false
 }

@@ -12,7 +12,6 @@
   "arrowParens": "always",
   "rangeStart": 0,
   "rangeEnd": 9007199254740991,
-  "parser": "flow",
   "requirePragma": false,
   "insertPragma": false,
   "proseWrap": "always",
