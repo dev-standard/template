@@ -31,7 +31,8 @@
     "commit": "git-cz",
     "release": "release-it",
     "build": "unbuild",
-    "format": "eslint --fix ."
+    "format": "eslint --fix .",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.0",
