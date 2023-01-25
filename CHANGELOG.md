@@ -1,5 +1,7 @@
 # Changelog
 
+## [0.4.1](https://github.com/dev-standard/template/compare/0.4.0...0.4.1) (2023-01-25)
+
 ## [0.4.0](https://github.com/dev-standard/template/compare/0.3.0...0.4.0) (2023-01-25)
 
 ## [0.3.0](https://github.com/dev-standard/template/compare/0.1.0...0.3.0) (2022-12-30)
