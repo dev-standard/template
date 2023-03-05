@@ -2,18 +2,16 @@
   "eslint.enable": true,
   "eslint.alwaysShowStatus": true,
   "eslint.run": "onSave",
-  "eslint.validate": ["javascript", "html", "vue", "markdown"],
-  "eslint.probe": ["javascript", "html", "vue", "markdown"],
+  "eslint.validate": ["javascript", "html", "vue", "markdown", "yaml", "json", "toml"],
+  "eslint.probe": ["javascript", "html", "vue", "markdown", "yaml", "json", "toml"],
   "eslint.lintTask.enable": true,
   "eslint.codeActionsOnSave.mode": "all",
-  "eslint.format.enable": false,
-  "prettier.enable": true,
+  "eslint.format.enable": true,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
   "editor.formatOnSaveMode": "file",
   "editor.formatOnType": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": false,
-    "source.fixAll.prettier": true
+    "source.fixAll.eslint": true
   }
 }

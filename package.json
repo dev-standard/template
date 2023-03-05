@@ -32,22 +32,19 @@
     "release": "release-it",
     "build": "unbuild",
     "lint": "eslint .",
-    "format": "prettier --write . --list-different"
+    "format": "eslint . --fix"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.34.0",
+    "@antfu/eslint-config-basic": "^0.36.0",
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
     "@commitlint/cz-commitlint": "^17.3.0",
     "@release-it/conventional-changelog": "^5.1.1",
     "commitizen": "^4.2.6",
     "eslint": "^8.30.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
     "husky": "^8.0.0",
     "inquirer": "8",
     "lint-staged": "^13.1.0",
-    "prettier": "^2.8.1",
     "release-it": "^15.5.1",
     "unbuild": "^1.0.2"
   },

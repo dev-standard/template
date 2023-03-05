@@ -1,3 +1,5 @@
 {
-  "*": ["eslint", "prettier --write . --list-different --ignore-unknown"]
+  "*": [
+    "eslint --fix"
+  ]
 }
